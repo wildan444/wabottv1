@@ -41,9 +41,9 @@ $ pkg install ffmpeg
 
 $ pkg install npm 
 
-$ git clone https://github.com/axfcap/apbotv1
+$ git clone https://github.com/zexymzh708/zxbotv1
 
-$ cd apbotv1
+$ cd zxbot1
 
 $ bash install.sh
 
@@ -59,7 +59,7 @@ dan kalo mengaktifkan
 
 Ketik 
 
-$ cd apbotv1
+$ cd zxbotv1
 
 $ node index.js
 
