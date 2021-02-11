@@ -1,11 +1,11 @@
 const help = (prefix) => {
 	return `
-「 *ZEXYBOT* 」
+「 *BAKABOT* 」
 
 ◪ *info OWNER*
   ❏ Prefix: 「  ${prefix}  」
-  ❏ Creator : ZEXY MZH
-  ❏ YOUTUBE: https://youtube.com/channel/UC0adT-_E44gWb9DhnWWPC8g
+  ❏ Creator : WILDAN
+  ❏ Whatsapp: wa.me/6281386615459
           *RULES*
 SEBELUM GUNAKAN BOT ANDA HARUS DAFTAR DULU,DAN JANGAN SPAM
 
