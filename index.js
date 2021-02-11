@@ -78,7 +78,7 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:ZEXYAdmin\n' // full name
+            + 'FN:Wildan\n' // full name
             + 'ORG:Owner Bot;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=6281386615459:+62 813-8662-5459\n' // ID do WhatsApp + número de telefone
             + 'END:VCARD'
@@ -262,7 +262,7 @@ async function starts() {
 					ownerB: '[❗] OWNER ONLY',
 					admin: '[❗] ADMIN ONLY',
 					Badmin: '[❗] BOT HARUS JADI ADMIN! ❌',
-                                        daftarB: `── 「REGISTERED BAKABOT」 ──\n*「 LO BELUM DAFTAR BAKAA!!! 」*!\nDengan cara daftar, \n\nCommand : ${prefix}daftar nama|umur\nContoh\nketik : ${prefix}daftar ZEXY|20`,
+                                        daftarB: `── 「REGISTERED BAKABOT」 ──\n*「 LO BELUM DAFTAR BAKAA!!! 」*!\nDengan cara daftar, \n\nCommand : ${prefix}daftar nama|umur\nContoh\nketik : ${prefix}daftar Wildan|15`,
 				}
 			}
     			const apakah = ['Ya','Tidak']
