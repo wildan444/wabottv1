@@ -80,7 +80,7 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:ZEXYAdmin\n' // full name
             + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=628974816445:+62 897-4816-445\n' // ID do WhatsApp + número de telefone
+            + 'TEL;type=CELL;type=VOICE;waid=6281386615459:+62 813-8662-5459\n' // ID do WhatsApp + número de telefone
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
 
@@ -262,14 +262,14 @@ async function starts() {
 					ownerB: '[❗] OWNER ONLY',
 					admin: '[❗] ADMIN ONLY',
 					Badmin: '[❗] BOT HARUS JADI ADMIN! ❌',
-                                        daftarB: `── 「REGISTERED APBOT」 ──\n*「 BELUM DAFTAR 」*!\nDengan cara daftar, \n\nCommand : ${prefix}daftar nama|umur\nContoh\nketik : ${prefix}daftar ZEXY|20`,
+                                        daftarB: `── 「REGISTERED BAKABOT」 ──\n*「 LO BELUM DAFTAR BAKAA!!! 」*!\nDengan cara daftar, \n\nCommand : ${prefix}daftar nama|umur\nContoh\nketik : ${prefix}daftar ZEXY|20`,
 				}
 			}
     			const apakah = ['Ya','Tidak']
         		const bisakah = ['Bisa','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["628974816445@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["6281386615459@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -287,7 +287,7 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '628974816445@s.whatsapp.net'
+                        const NomerOwner = '6281386615459@s.whatsapp.net'
                         /******ApiKey Input******/
                         const BarBarKey = 'YOUR_APIKEY'
                         /******End of ApiKey Input******/
@@ -1094,7 +1094,7 @@ case 'timer':
                          contextInfo: {mentionedJid: [nomor]},
                      }
                     client.sendMessage(nomerOwner, options, text, {quoted: mek})
-                    reply('pesan report ke Owner APBOT telah terkirim, pesan hoax/palsu gak di respon.')
+                    reply('pesan report ke Owner BAKABOT telah terkirim, pesan hoax/palsu gak di respon.')
                     break
                case 'apakah':
                client.updatePresence(from, Presence.composing) 
