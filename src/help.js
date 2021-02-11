@@ -5,7 +5,7 @@ const help = (prefix) => {
 ◪ *info OWNER*
   ❏ Prefix: 「  ${prefix}  」
   ❏ Creator : WILDAN
-  ❏ Whatsapp: wa.me/6281386615459
+  ❏ instagram: @ns1.wildanxploit
           *RULES*
 SEBELUM GUNAKAN BOT ANDA HARUS DAFTAR DULU,DAN JANGAN SPAM
 
